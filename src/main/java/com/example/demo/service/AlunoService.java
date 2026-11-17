@@ -13,7 +13,7 @@ import lombok.RequiredArgsConstructor;
 @Service 
 @RequiredArgsConstructor 
 public class AlunoService {
-    private AlunoRepository alunoRepository;
+    private final AlunoRepository alunoRepository;
 
     public List<Aluno> listarTodos(){
         return alunoRepository.findAll();
