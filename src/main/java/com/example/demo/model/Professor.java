@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter 
 @Entity
 @Table(name="professor")
-public class Professor {
+public class Professor extends Usuario{
 
     @Id 
     @GeneratedValue (strategy = GenerationType.IDENTITY)

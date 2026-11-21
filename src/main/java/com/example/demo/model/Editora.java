@@ -19,6 +19,7 @@ public class Editora {
     private Long id;
 
     private String nome;
+    private String estado;
     private String cidade;
 
     // associação 1 para N
